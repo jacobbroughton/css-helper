@@ -1,7 +1,10 @@
 import { configureStore } from "@reduxjs/toolkit";
+import selectionsReducer from "./rules"
 
 export const store = configureStore({
-  reducer: {}
+  reducer: {
+    rules: selectionsReducer
+  }
 })
 
 // infer the 'RootState' and 'AppDispatch' types from the store itself

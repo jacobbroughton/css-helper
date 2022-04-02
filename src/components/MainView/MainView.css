@@ -1,0 +1,10 @@
+.main-view {
+  margin-left: 200px;
+  background-color: fff;
+  height: 100%;
+  width: calc(100% - 200px);
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}

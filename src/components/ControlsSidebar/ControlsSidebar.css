@@ -1,0 +1,29 @@
+.controls-sidebar {
+  height: 100%;
+  width: 200px;
+  margin-left: 200px;
+  background-color: #ddd;
+  border-left: #aaa 1px solid;
+}
+
+.controls-sidebar h1 {
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+.controls-sidebar form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0 10px;
+}
+
+.controls-sidebar .input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.controls-sidebar .input-container label {
+  text-align: start;
+}
